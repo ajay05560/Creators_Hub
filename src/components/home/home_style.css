@@ -1,0 +1,248 @@
+.main {
+    padding: 50px;
+}
+
+.image_item {
+    height: 400px;
+    width: 400px;
+}
+
+#image_item1 {
+    background-image: url("https://www.influencerpro.app/graphics/creator_shooting_video.png");
+    background-size: cover;
+    width: 600px;
+}
+
+#image_item2 {
+    background-image: url("https://img.freepik.com/premium-vector/video-content-monetization-making-money-from-vlog-online-business-social-media_475148-199.jpg?w=2000");
+    background-size: cover;
+    width: 600px;
+}
+
+#image_item3 {
+    background-image: url("https://img.freepik.com/free-vector/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept_74855-9812.jpg?w=2000");
+    background-size: cover;
+    width: 600px;
+    height: 500px;
+}
+
+.section1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.section1_text {
+    font-size: 60px;
+    width: 900px;
+}
+
+.tagline {
+    font-size: 70px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-weight: bold;
+    -webkit-text-stroke: 2px limegreen;
+    color: transparent;
+}
+
+.animation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid black;
+    margin-top: 100px;
+}
+
+.img {
+    height: 150px;
+    width: 150px;
+}
+
+#img1 {
+    background-image: url("../assets/woman.png");
+    background-size: cover;
+    animation-name: animation_first;
+    animation-delay: 100ms;
+    animation-duration: 4s;
+    position: relative;
+    left: 0px;
+    animation-iteration-count: infinite;
+}
+
+.img_error {
+    height: 50px;
+    width: 50px;
+    background-image: url("../assets/error.png");
+    background-size: cover;
+}
+
+.img_content {
+    height: 150px;
+    width: 150px;
+    background-image: url("../assets/content.png");
+    background-size: cover;
+}
+
+.img_sponser {
+    height: 150px;
+    width: 150px;
+    background-image: url("../assets/investor.png");
+    background-size: cover;
+}
+
+#img2 {
+    height: 150px;
+    width: 150px;
+    background-image: url("../assets/pedestrian.png");
+    background-size: cover;
+    animation-name: animation_second;
+    animation-delay: 100ms;
+    animation-duration: 3s;
+    position: relative;
+    right: 0px;
+    animation-iteration-count: infinite;
+}
+
+#img3 {
+    height: 150px;
+    width: 150px;
+    background-image: url("../assets/woman.png");
+    background-size: cover;
+    animation-name: animation_third;
+    animation-duration: 3s;
+    position: relative;
+    left: 0px;
+    animation-iteration-count: infinite;
+}
+
+#img4 {
+    height: 150px;
+    width: 150px;
+    background-image: url("../assets/pedestrian.png");
+    background-size: cover;
+    animation-name: animation_fourth;
+    animation-duration: 3s;
+    position: relative;
+    right: 0px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation_first {
+    0% {
+        left: 0px;
+    }
+    40% {
+        left: 30%;
+    }
+    50% {
+        left: 30%;
+    }
+    100% {
+        left: 60%;
+    }
+}
+
+@keyframes animation_second {
+    0% {
+        right: 0px;
+    }
+    100% {
+        right: 45%;
+    }
+}
+
+@keyframes animation_third {
+    0% {
+        left: 0%;
+    }
+    100% {
+        left: 22%;
+    }
+}
+
+@keyframes animation_fourth {
+    0% {
+        right: 0%;
+    }
+    100% {
+        right: 22%;
+    }
+}
+
+@media (max-width:1440px) {
+    .image_item {
+        height: 200px;
+        width: 200px;
+    }
+    #image_item1 {
+        background-image: url("https://www.influencerpro.app/graphics/creator_shooting_video.png");
+        background-size: cover;
+        width: 400px;
+    }
+    #image_item2 {
+        background-image: url("https://img.freepik.com/premium-vector/video-content-monetization-making-money-from-vlog-online-business-social-media_475148-199.jpg?w=2000");
+        background-size: cover;
+        width: 200px;
+    }
+    #image_item3 {
+        background-image: url("https://img.freepik.com/free-vector/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept_74855-9812.jpg?w=2000");
+        background-size: cover;
+        width: 400px;
+        height: 300px;
+    }
+    .section1_text {
+        font-size: 30px;
+        width: 500px;
+    }
+}
+
+@media (max-width:770px) {
+    .image_item {
+        height: 200px;
+        width: 200px;
+    }
+    #image_item1 {
+        background-image: url("https://www.influencerpro.app/graphics/creator_shooting_video.png");
+        background-size: cover;
+        width: 350px;
+    }
+    #image_item2 {
+        background-image: url("https://img.freepik.com/premium-vector/video-content-monetization-making-money-from-vlog-online-business-social-media_475148-199.jpg?w=2000");
+        background-size: cover;
+        width: 350px;
+    }
+    #image_item3 {
+        background-image: url("https://img.freepik.com/free-vector/business-leader-standing-arrow-holding-flag-flat-vector-illustration-cartoon-people-training-doing-business-plan-leadership-victory-challenge-concept_74855-9812.jpg?w=2000");
+        background-size: cover;
+        width: 350px;
+        height: 250px;
+    }
+    .section1_text {
+        font-size: 20px;
+        width: 400px;
+    }
+    .tagline {
+        font-size: 50px;
+    }
+}
+
+
+/* https://img.freepik.com/premium-vector/guy-animator-creation-project-process-vector-illustration-male-motion-designer-working-computer-freelancer-graphic-creator-workplace-back-view-man-learn-online-animation-editor-course_198278-13287.jpg?w=2000 */
+
+
+/* https://cdni.iconscout.com/illustration/premium/thumb/content-creator-7896958-6294842.png */
+
+
+/* https://cdni.iconscout.com/illustration/premium/thumb/content-creator-3594030-3007149.png */
+
+
+/* https://cdni.iconscout.com/illustration/premium/thumb/beauty-blogger-4314631-3605624.png?f=webp */
+
+
+/* https://www.influencerpro.app/graphics/creator_shooting_video.png */
+
+
+/* https://thumbs.dreamstime.com/b/cartoon-internet-blogger-recording-media-content-influencer-filming-video-blog-man-speaks-microphone-153892148.jpg */
