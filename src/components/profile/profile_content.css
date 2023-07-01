@@ -1,0 +1,31 @@
+.profile_content {
+    padding: 200px;
+}
+
+.creator {
+    font-size: 70px
+}
+
+.creator_details {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.sponser_text {
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 100px;
+}
+
+.danger_btn {
+    height: 60px;
+    width: 200px;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+}
