@@ -1,0 +1,103 @@
+.main {
+    margin-top: 100px;
+}
+
+.add {
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 50px;
+    float: right;
+    right: 50px;
+    border: none;
+    position: fixed;
+    cursor: pointer;
+}
+
+.post {
+    height: auto;
+    min-width: 90%;
+    width: auto;
+    border: 2px solid black;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.brand>h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.details>p {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.apply_btn {
+    height: 50px;
+    width: 150px;
+    background-color: dodgerblue;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+}
+
+.brand {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team_request {
+    height: 100px;
+    width: 600px;
+    background-color: limegreen;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.team_request:hover {
+    background-color: transparent;
+    color: limegreen;
+    border: 2px solid limegreen;
+}
+
+.connect_btn {
+    height: 100px;
+    width: 300px;
+    background-color: dodgerblue;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    margin: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
